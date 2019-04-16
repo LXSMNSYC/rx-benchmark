@@ -1,0 +1,43 @@
+{
+  "name": "rx-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarks for ReactiveX libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXSMNSYC/rx-benchmark.git"
+  },
+  "keywords": [
+    "rx",
+    "rxjs",
+    "reactivex",
+    "reactive-extensions",
+    "observable",
+    "benchmark"
+  ],
+  "author": "LXSMNSYC (alexis.munsayac@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LXSMNSYC/rx-benchmark/issues"
+  },
+  "homepage": "https://github.com/LXSMNSYC/rx-benchmark#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "lite-observable": "^2.0.1",
+    "rx-single": "^0.10.3",
+    "rxjs": "^6.4.0",
+    "zen-observable": "^0.8.14"
+  },
+  "dependencies": {
+    "baconjs": "^3.0.3",
+    "benchmark": "^2.1.4",
+    "most": "^1.7.3",
+    "rx-completable": "^0.7.1",
+    "rx-maybe": "^0.3.1"
+  }
+}
